@@ -1,0 +1,21 @@
+export default {
+  black: '#000000',
+  gray: '#A3B3D0',
+  gray_secondary: '',
+  white: '#FFFFFF',
+  purple: '#7446EE',
+  secondaryWhite: '#E5E8FE',
+  secondaryPurple: '#5A5776',
+  green: '#5CBB73',
+
+  primary_100: '#E6F4F6',
+  primary_200: '#CDE8EC',
+  primary_300: '#A5D5DA',
+  primary_400: '#6DB8BB',
+  primary_500: '#56AFB6',
+  primary_600: '#05647A',
+  primary_700: '#034859',
+  primary_800: '#023A48',
+  primary_900: '#062A32',
+  primary_950: '#101617',
+};

@@ -1,0 +1,4 @@
+export const MAIN_ROUTE = {
+  COURSES_SCREEN: 'COURSES_SCREEN',
+  FILTER_SCREEN: 'FILTER_SCREEN',
+} as const;
