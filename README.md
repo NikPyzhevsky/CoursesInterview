@@ -3,7 +3,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 # Getting Started
 
 
-https://github.com/user-attachments/assets/4c19e9ab-a243-4b3e-a18a-6c76007e78de
+
+https://github.com/user-attachments/assets/d6156b19-32a9-423c-8bbd-25d5ef6b8f8e
+
 
 
 
