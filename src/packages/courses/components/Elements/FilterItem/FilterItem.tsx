@@ -10,16 +10,17 @@ import { styles } from './styles';
 
 interface FilterItemProps {
   onPress: () => void;
+  value?: string;
   style?: StyleProp<ViewStyle>;
 }
 
-const FilterItem: FC<FilterItemProps> = ({ onPress, style }) => {
+const FilterItem: FC<FilterItemProps> = ({ onPress, style, value }) => {
   const { t } = useTranslation('courses');
 
   return (
     <Pressable onPress={onPress} style={[styles.root, style]}>
       <Text variant="S.ExtraBold" style={styles.title}>
-        {t('badge')}
+        {value ?? t('badge')}
       </Text>
       <Chevron />
     </Pressable>

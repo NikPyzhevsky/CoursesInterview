@@ -1,6 +1,6 @@
 import { FC, memo } from 'react';
 import { View } from 'react-native';
-import { NitroImage, useWebImage } from 'react-native-nitro-image';
+import Image from 'react-native-fast-image';
 
 import { Text } from '@/packages/shared/components';
 
@@ -12,13 +12,10 @@ interface CardProps {
   imageUrl: string;
 }
 
-// NitroImage is replace for fastImage(not supported)
 const Card: FC<CardProps> = ({ name, imageUrl, color }) => {
-  const image = useWebImage(imageUrl);
-
   return (
     <View style={styles.root}>
-      <NitroImage image={image} style={styles.image(color)} />
+      <Image source={{ uri: imageUrl }} style={styles.image(color)} />
       <Text style={styles.title} variant="S.ExtraBold">
         {name}
       </Text>

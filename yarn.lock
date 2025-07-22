@@ -6075,6 +6075,11 @@ react-native-edge-to-edge@^1.6.2:
   resolved "https://registry.npmjs.org/react-native-edge-to-edge/-/react-native-edge-to-edge-1.6.2.tgz"
   integrity sha512-koEF6WRAfdGNelXlP7NtHrQhFGtplwciYNWLHOCTCk0Thc7dlxtqxHRYSA5vPJgWOEkVBFqxcoOqKwAtqOmLNw==
 
+react-native-fast-image@^8.6.3:
+  version "8.6.3"
+  resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz#6edc3f9190092a909d636d93eecbcc54a8822255"
+  integrity sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==
+
 react-native-gesture-handler@^2.27.1:
   version "2.27.2"
   resolved "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.27.2.tgz"
@@ -6104,15 +6109,10 @@ react-native-mmkv@^3.2.0:
   resolved "https://registry.npmjs.org/react-native-mmkv/-/react-native-mmkv-3.3.0.tgz"
   integrity sha512-2iPjIJ+IAODXN35wm53EN6nv+hR/0NXLLiLWOdPA/0gXDB2dYVrr6MqvoiFpxhLhdj0B8fkf5ARNVavJaSvuuQ==
 
-react-native-nitro-image@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/react-native-nitro-image/-/react-native-nitro-image-0.4.0.tgz"
-  integrity sha512-7bQQm6dJQ8q73VwGyhrY7FwgjYoT3UL6mkzI/A9b9Y7Ia8qQ4L0GGIw3V40S/UGd0mefW6K8MOy3ricKBc46Mw==
-
-react-native-nitro-modules@^0.26.3:
-  version "0.26.4"
-  resolved "https://registry.npmjs.org/react-native-nitro-modules/-/react-native-nitro-modules-0.26.4.tgz"
-  integrity sha512-sCZ0U+FY6JM73HaZYyc4kSRV7JQZXGfbimpYJzaAaZFQMGpJFkD5c3Jt66j1v83wN/m6D/SM9yyx+dN6XTfGAg==
+react-native-nitro-modules@0.26.3:
+  version "0.26.3"
+  resolved "https://registry.yarnpkg.com/react-native-nitro-modules/-/react-native-nitro-modules-0.26.3.tgz#80d7d01fe1b9f657182f5b886f74ac37e185423d"
+  integrity sha512-M6XXalSeRhz3X44vxlRnmRAcyTfC3EHxKBsAKHRNlTtVyu9IUQeUBBtjtIZgK6CM3km1387buYtRVIg6XGmoGQ==
 
 react-native-reanimated@^3.18.0:
   version "3.18.0"

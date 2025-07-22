@@ -12,7 +12,7 @@ import { styles } from './styles';
 const keyExtractor = (item: ICourse) => item.id;
 
 const Courses: FC = () => {
-  const { snapInterval, courses, onPress } = useCourses();
+  const { snapInterval, courses, onPress, tag, ref } = useCourses();
 
   const renderItem = useCallback<ListRenderItem<ICourse>>(({ item }) => {
     return <Card color={item.bgColor} name={item.name} imageUrl={item.image} />;
@@ -20,8 +20,8 @@ const Courses: FC = () => {
 
   return (
     <View style={styles.root}>
-      <FilterItem onPress={onPress} style={styles.filter} />
       <Animated.FlatList
+        ref={ref}
         horizontal
         itemLayoutAnimation={LinearTransition}
         snapToInterval={snapInterval}
@@ -31,6 +31,7 @@ const Courses: FC = () => {
         data={courses}
         renderItem={renderItem}
       />
+      <FilterItem value={tag} onPress={onPress} style={styles.filter} />
     </View>
   );
 };

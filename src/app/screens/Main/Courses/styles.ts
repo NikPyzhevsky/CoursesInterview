@@ -20,6 +20,6 @@ export const styles = StyleSheet.create((theme, { insets }) => ({
   filter: {
     position: 'absolute',
     zIndex: 100,
-    marginTop: 12,
+    top: insets.top || 12,
   },
 }));
